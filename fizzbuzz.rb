@@ -1,0 +1,1 @@
+(1..100).each{|i| puts [(i%3==0 ? 'Fizz' : '')+(i%5==0 ? 'Buzz' : ''),i.to_s].reject(&:empty?)[0]}
